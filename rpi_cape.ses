@@ -1,0 +1,92 @@
+
+(session rpi_cape.ses
+  (base_design rpi_cape.dsn)
+  (placement
+    (resolution um 10)
+    (component ADAFRUIT_DS3231:ADAFRUIT_DS3231
+      (place U1 599440 -635000 back 180)
+    )
+    (component PIN_ARRAY_2x20:PIN_ARRAY_2X20
+      (place U2 535940 -767080 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "4.0.7-e2-6376~58~ubuntu16.04.1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_685.8:330.2_um"
+        (shape
+          (circle F.Cu 6858 0 0)
+        )
+        (shape
+          (circle B.Cu 6858 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "Net-(U1-Pad1)"
+        (wire
+          (path F.Cu 2032
+            523240 -525780
+            523240 -538356
+          )
+        )
+        (wire
+          (path F.Cu 2032
+            523240 -538356
+            528743 -538356
+            535816 -545429
+            535816 -556457
+            543239 -563880
+            554475 -563880
+            586617 -596022
+            586617 -711077
+            599440 -723900
+          )
+        )
+      )
+      (net "Net-(U1-Pad2)"
+        (wire
+          (path B.Cu 2032
+            523240 -627380
+            535940 -640080
+            553898 -640080
+            586617 -672799
+            586617 -685677
+            599440 -698500
+          )
+        )
+      )
+      (net "Net-(U1-Pad3)"
+        (wire
+          (path B.Cu 2032
+            599440 -673100
+            565776 -639436
+            565776 -601070
+            553986 -589280
+            535940 -589280
+            523240 -576580
+          )
+        )
+      )
+      (net "Net-(U1-Pad4)"
+        (wire
+          (path B.Cu 2032
+            523240 -551180
+            535940 -563880
+            553805 -563880
+            586617 -596692
+            586617 -634877
+            599440 -647700
+          )
+        )
+      )
+    )
+  )
+)

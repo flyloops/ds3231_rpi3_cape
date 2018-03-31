@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name PIN_ARRAY_2x20)(type KiCad)(uri "$(KIPRJMOD)/PIN_ARRAY_2x20.pretty")(options "")(descr ""))
+  (lib (name ADAFRUIT_DS3231)(type KiCad)(uri "$(KIPRJMOD)/ADAFRUIT_DS3231.pretty")(options "")(descr ""))
+)

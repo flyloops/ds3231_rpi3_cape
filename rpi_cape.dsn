@@ -1,0 +1,301 @@
+(pcb /home/wbd/work/pcb_designs/ds3231_rpi3b_cape/rpi_cape.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.7-e2-6376~58~ubuntu16.04.1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  50800 -102362  50800 -51308  50807.7 -51219.8  50830.6 -51134.3
+            50868.1 -51054  50918.8 -50981.5  50981.5 -50918.8  51054 -50868.1
+            51134.3 -50830.6  51219.8 -50807.7  51308 -50800  75692 -50800
+            75780.2 -50807.7  75865.7 -50830.6  75946 -50868.1  76018.5 -50918.8
+            76081.2 -50981.5  76131.9 -51054  76169.4 -51134.3  76192.3 -51219.8
+            76200 -51308  76200 -75692  76192.3 -75780.2  76169.4 -75865.7
+            76131.9 -75946  76081.2 -76018.5  76018.5 -76081.2  75946 -76131.9
+            75865.7 -76169.4  75780.2 -76192.3  75692 -76200  58420 -76200
+            58331.8 -76207.7  58246.3 -76230.6  58166 -76268.1  58093.5 -76318.8
+            58030.8 -76381.5  57980.1 -76454  57942.6 -76534.3  57919.7 -76619.8
+            57912 -76708  57912 -102108  57904.3 -102196  57881.4 -102282
+            57843.9 -102362  57793.2 -102435  57730.5 -102497  57658 -102548
+            57577.7 -102585  57492.2 -102608  57404 -102616  51054 -102616
+            51009.9 -102612  50967.1 -102601  50927 -102582  50890.7 -102557
+            50859.4 -102525  50834 -102489  50815.3 -102449  50803.9 -102406
+            50800 -102362  50800 -102362)
+    )
+    (via "Via[0-1]_685.8:330.2_um")
+    (rule
+      (width 203.2)
+      (clearance 203.3)
+      (clearance 203.3 (type default_smd))
+      (clearance 50.8 (type smd_smd))
+    )
+  )
+  (placement
+    (component ADAFRUIT_DS3231:ADAFRUIT_DS3231
+      (place U1 59944 -63500 back 180 (PN adafruit_DS3231))
+    )
+    (component PIN_ARRAY_2x20:PIN_ARRAY_2X20
+      (place U2 53594 -76708 front 0 (PN RPI3B))
+    )
+  )
+  (library
+    (image ADAFRUIT_DS3231:ADAFRUIT_DS3231
+      (outline (path signal 203.2  -1270 11430  13970 11430))
+      (outline (path signal 203.2  -2540 -10160  -2540 10160))
+      (outline (path signal 203.2  13970 -11430  -1270 -11430))
+      (outline (path signal 203.2  15240 10160  15240 -10160))
+      (pin Round[A]Pad_1905_um 1 0 8890)
+      (pin Round[A]Pad_1905_um 2 0 6350)
+      (pin Round[A]Pad_1905_um 3 0 3810)
+      (pin Round[A]Pad_1905_um 4 0 1270)
+      (pin Round[A]Pad_1905_um 5 0 -1270)
+      (pin Round[A]Pad_1905_um 6 0 -3810)
+      (pin Round[A]Pad_1905_um 7 0 -6350)
+      (pin Round[A]Pad_1905_um 8 0 -8890)
+      (pin Round[A]Pad_3556_um @1 12700 8890)
+      (pin Round[A]Pad_3556_um @2 12700 -8890)
+    )
+    (image PIN_ARRAY_2x20:PIN_ARRAY_2X20
+      (outline (path signal 203.2  -2540 25654  2540 25654))
+      (outline (path signal 203.2  2540 25654  2540 -25654))
+      (outline (path signal 203.2  2540 -25654  -2540 -25654))
+      (outline (path signal 203.2  -2540 -25654  -2540 25654))
+      (outline (path signal 203.2  0 25654  2540 25654))
+      (outline (path signal 203.2  2540 25654  2540 -25654))
+      (outline (path signal 203.2  2540 -25654  -2540 -25654))
+      (outline (path signal 203.2  -2540 -25654  -2540 25654))
+      (outline (path signal 203.2  -2540 25654  0 25654))
+      (pin Rect[A]Pad_1905x1905_um 1 -1270 24130)
+      (pin Round[A]Pad_1905_um 2 1270 24130)
+      (pin Round[A]Pad_1905_um 3 -1270 21590)
+      (pin Round[A]Pad_1905_um 4 1270 21590)
+      (pin Round[A]Pad_1905_um 5 -1270 19050)
+      (pin Round[A]Pad_1905_um 6 1270 19050)
+      (pin Round[A]Pad_1905_um 7 -1270 16510)
+      (pin Round[A]Pad_1905_um 8 1270 16510)
+      (pin Round[A]Pad_1905_um 9 -1270 13970)
+      (pin Round[A]Pad_1905_um 10 1270 13970)
+      (pin Round[A]Pad_1905_um 11 -1270 11430)
+      (pin Round[A]Pad_1905_um 12 1270 11430)
+      (pin Round[A]Pad_1905_um 13 -1270 8890)
+      (pin Round[A]Pad_1905_um 14 1270 8890)
+      (pin Round[A]Pad_1905_um 15 -1270 6350)
+      (pin Round[A]Pad_1905_um 16 1270 6350)
+      (pin Round[A]Pad_1905_um 17 -1270 3810)
+      (pin Round[A]Pad_1905_um 18 1270 3810)
+      (pin Round[A]Pad_1905_um 19 -1270 1270)
+      (pin Round[A]Pad_1905_um 20 1270 1270)
+      (pin Round[A]Pad_1905_um 21 -1270 -1270)
+      (pin Round[A]Pad_1905_um 22 1270 -1270)
+      (pin Round[A]Pad_1905_um 23 -1270 -3810)
+      (pin Round[A]Pad_1905_um 24 1270 -3810)
+      (pin Round[A]Pad_1905_um 25 -1270 -6350)
+      (pin Round[A]Pad_1905_um 26 1270 -6350)
+      (pin Round[A]Pad_1905_um 27 -1270 -8890)
+      (pin Round[A]Pad_1905_um 28 1270 -8890)
+      (pin Round[A]Pad_1905_um 29 -1270 -11430)
+      (pin Round[A]Pad_1905_um 30 1270 -11430)
+      (pin Round[A]Pad_1905_um 31 -1270 -13970)
+      (pin Round[A]Pad_1905_um 32 1270 -13970)
+      (pin Round[A]Pad_1905_um 33 -1270 -16510)
+      (pin Round[A]Pad_1905_um 34 1270 -16510)
+      (pin Round[A]Pad_1905_um 35 -1270 -19050)
+      (pin Round[A]Pad_1905_um 36 1270 -19050)
+      (pin Round[A]Pad_1905_um 37 -1270 -21590)
+      (pin Round[A]Pad_1905_um 38 1270 -21590)
+      (pin Round[A]Pad_1905_um 39 -1270 -24130)
+      (pin Round[A]Pad_1905_um 40 1270 -24130)
+    )
+    (padstack Round[A]Pad_1905_um
+      (shape (circle F.Cu 1905))
+      (shape (circle B.Cu 1905))
+      (attach off)
+    )
+    (padstack Round[A]Pad_3556_um
+      (shape (circle F.Cu 3556))
+      (shape (circle B.Cu 3556))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1905x1905_um
+      (shape (rect F.Cu -952.5 -952.5 952.5 952.5))
+      (shape (rect B.Cu -952.5 -952.5 952.5 952.5))
+      (attach off)
+    )
+    (padstack "Via[0-1]_685.8:330.2_um"
+      (shape (circle F.Cu 685.8))
+      (shape (circle B.Cu 685.8))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(U1-Pad1)"
+      (pins U1-1 U2-1)
+    )
+    (net "Net-(U1-Pad2)"
+      (pins U1-2 U2-9)
+    )
+    (net "Net-(U1-Pad3)"
+      (pins U1-3 U2-5)
+    )
+    (net "Net-(U1-Pad4)"
+      (pins U1-4 U2-3)
+    )
+    (net "Net-(U1-Pad5)"
+      (pins U1-5)
+    )
+    (net "Net-(U1-Pad6)"
+      (pins U1-6)
+    )
+    (net "Net-(U1-Pad7)"
+      (pins U1-7)
+    )
+    (net "Net-(U1-Pad8)"
+      (pins U1-8)
+    )
+    (net "Net-(U2-Pad2)"
+      (pins U2-2)
+    )
+    (net "Net-(U2-Pad4)"
+      (pins U2-4)
+    )
+    (net "Net-(U2-Pad6)"
+      (pins U2-6)
+    )
+    (net "Net-(U2-Pad7)"
+      (pins U2-7)
+    )
+    (net "Net-(U2-Pad8)"
+      (pins U2-8)
+    )
+    (net "Net-(U2-Pad10)"
+      (pins U2-10)
+    )
+    (net "Net-(U2-Pad11)"
+      (pins U2-11)
+    )
+    (net "Net-(U2-Pad12)"
+      (pins U2-12)
+    )
+    (net "Net-(U2-Pad13)"
+      (pins U2-13)
+    )
+    (net "Net-(U2-Pad14)"
+      (pins U2-14)
+    )
+    (net "Net-(U2-Pad15)"
+      (pins U2-15)
+    )
+    (net "Net-(U2-Pad16)"
+      (pins U2-16)
+    )
+    (net "Net-(U2-Pad17)"
+      (pins U2-17)
+    )
+    (net "Net-(U2-Pad18)"
+      (pins U2-18)
+    )
+    (net "Net-(U2-Pad19)"
+      (pins U2-19)
+    )
+    (net "Net-(U2-Pad20)"
+      (pins U2-20)
+    )
+    (net "Net-(U2-Pad21)"
+      (pins U2-21)
+    )
+    (net "Net-(U2-Pad22)"
+      (pins U2-22)
+    )
+    (net "Net-(U2-Pad23)"
+      (pins U2-23)
+    )
+    (net "Net-(U2-Pad24)"
+      (pins U2-24)
+    )
+    (net "Net-(U2-Pad25)"
+      (pins U2-25)
+    )
+    (net "Net-(U2-Pad26)"
+      (pins U2-26)
+    )
+    (net "Net-(U2-Pad27)"
+      (pins U2-27)
+    )
+    (net "Net-(U2-Pad28)"
+      (pins U2-28)
+    )
+    (net "Net-(U2-Pad29)"
+      (pins U2-29)
+    )
+    (net "Net-(U2-Pad30)"
+      (pins U2-30)
+    )
+    (net "Net-(U2-Pad31)"
+      (pins U2-31)
+    )
+    (net "Net-(U2-Pad32)"
+      (pins U2-32)
+    )
+    (net "Net-(U2-Pad33)"
+      (pins U2-33)
+    )
+    (net "Net-(U2-Pad34)"
+      (pins U2-34)
+    )
+    (net "Net-(U2-Pad35)"
+      (pins U2-35)
+    )
+    (net "Net-(U2-Pad36)"
+      (pins U2-36)
+    )
+    (net "Net-(U2-Pad37)"
+      (pins U2-37)
+    )
+    (net "Net-(U2-Pad38)"
+      (pins U2-38)
+    )
+    (net "Net-(U2-Pad39)"
+      (pins U2-39)
+    )
+    (net "Net-(U2-Pad40)"
+      (pins U2-40)
+    )
+    (class kicad_default "" "Net-(U1-Pad1)" "Net-(U1-Pad2)" "Net-(U1-Pad3)"
+      "Net-(U1-Pad4)" "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad7)" "Net-(U1-Pad8)"
+      "Net-(U2-Pad10)" "Net-(U2-Pad11)" "Net-(U2-Pad12)" "Net-(U2-Pad13)"
+      "Net-(U2-Pad14)" "Net-(U2-Pad15)" "Net-(U2-Pad16)" "Net-(U2-Pad17)"
+      "Net-(U2-Pad18)" "Net-(U2-Pad19)" "Net-(U2-Pad2)" "Net-(U2-Pad20)" "Net-(U2-Pad21)"
+      "Net-(U2-Pad22)" "Net-(U2-Pad23)" "Net-(U2-Pad24)" "Net-(U2-Pad25)"
+      "Net-(U2-Pad26)" "Net-(U2-Pad27)" "Net-(U2-Pad28)" "Net-(U2-Pad29)"
+      "Net-(U2-Pad30)" "Net-(U2-Pad31)" "Net-(U2-Pad32)" "Net-(U2-Pad33)"
+      "Net-(U2-Pad34)" "Net-(U2-Pad35)" "Net-(U2-Pad36)" "Net-(U2-Pad37)"
+      "Net-(U2-Pad38)" "Net-(U2-Pad39)" "Net-(U2-Pad4)" "Net-(U2-Pad40)" "Net-(U2-Pad6)"
+      "Net-(U2-Pad7)" "Net-(U2-Pad8)"
+      (circuit
+        (use_via Via[0-1]_685.8:330.2_um)
+      )
+      (rule
+        (width 203.2)
+        (clearance 203.3)
+      )
+    )
+  )
+  (wiring
+  )
+)
