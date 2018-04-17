@@ -1,0 +1,7 @@
+
+Item   Reference         Description                                    Vendor        PN              Qty
+--------------------------------------------------------------------------------------------------------------
+1      U1                CONN HEADER FEMALE 8POS .1" TIN                Digikey     S7006-ND           1
+2      U2                CONN HEADER FEM 40POS .1" DL TIN               Digikey     S6104-ND           1
+
+

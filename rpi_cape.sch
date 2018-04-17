@@ -33,6 +33,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:rpi3b
 LIBS:adafruit_ds3231
+LIBS:rpi_cape-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

@@ -1,0 +1,14 @@
+
+Item   Reference         Description                                    Vendor        PN              Qty
+--------------------------------------------------------------------------------------------------------------
+1      U1                CONN HEADER FEMALE 8POS .1" TIN                Digikey     S7006-ND           1
+2      U2                CONN HEADER FEM 40POS .1" DL TIN               Digikey     S6104-ND           1
+
+1      C1-C4             CAP TANT 10UF 25V 10% RADIAL                   Digikey      478-4170-ND       4
+2      J1                CONN D-SUB PLUG R/A 9POS GOLD/FL               Digikey      609-1478-ND       1 
+3      P1-P5             CONN RCPT .100" 8POS SNGL TIN                  Digikey      SAM1222-08-ND     5
+4      P12               CONN RCPT FMALE DIN 5POS SOLDER                Digikey      CP-2350-ND        1
+5      P13               TERMINAL BLOCK 7.50MM 2POS PCB                 Digikey      ED2354-ND         1
+6      SW1               SWITCH SLIDE SPDT 4A 125V                      Digikey      CKC5102-ND        1
+
+
